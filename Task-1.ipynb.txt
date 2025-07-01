@@ -1,0 +1,343 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "65f679dc",
+   "metadata": {},
+   "source": [
+    "# Student Performance Data Analysis - Math Dataset"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "770e3891",
+   "metadata": {},
+   "source": [
+    "## Objective\n",
+    "Analyze a dataset of student exam scores to extract insights regarding student performance, study habits, and gender-based differences using Python libraries and data analysis techniques."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "afd1ac7b",
+   "metadata": {},
+   "source": [
+    "## Step 1: Import Libraries\n",
+    "We need the following libraries for data handling and visualization."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "82a3949b",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import pandas as pd\n",
+    "import numpy as np\n",
+    "import matplotlib.pyplot as plt\n",
+    "import seaborn as sns"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "d608e34b",
+   "metadata": {},
+   "source": [
+    "## Step 2: Data Loading\n",
+    "We load the student performance dataset using `pandas` and display the first few rows."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "4b7d4dac",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "df = pd.read_csv(r'C:\\Users\\aayus\\Downloads\\student\\student-mat.csv', sep=';')\n",
+    "print(\"First 5 rows of the dataset : \")\n",
+    "print(df.head())"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "702ad885",
+   "metadata": {},
+   "source": [
+    "## Step 3: Data Exploration\n",
+    "We explore the dataset by checking for missing values, inspecting data types, and understanding the dataset's size."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "aa24f748",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Check for missing values\n",
+    "df.isnull().sum()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "22d226d6",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Display data types\n",
+    "df.dtypes"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "abe02826",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Dataset size\n",
+    "df.shape"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "ffdd99bc",
+   "metadata": {},
+   "source": [
+    "## Step 4: Data Cleaning\n",
+    "We check for duplicate rows and remove them to ensure clean data."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "192b1c2d",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Remove duplicates\n",
+    "df.drop_duplicates(inplace=True)\n",
+    "# Confirm changes\n",
+    "df.shape"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "911cc62a",
+   "metadata": {},
+   "source": [
+    "## Step 5: Data Analysis Questions\n",
+    "We answer the following questions using the dataset:"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "bab21e7c",
+   "metadata": {},
+   "source": [
+    "### Question 1: What is the average final grade (G3)?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "247b9a30",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Average Final Grade (G3): 10.415189873417722\n"
+     ]
+    }
+   ],
+   "source": [
+    "average_G3 = df['G3'].mean()\n",
+    "print(f'Average Final Grade (G3): {average_G3}')"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "a45edbe8",
+   "metadata": {},
+   "source": [
+    "### Question 2: How many students scored above 15 in their final grade (G3)?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "1fd4d9f8",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Number of students scoring above 15: 40\n"
+     ]
+    }
+   ],
+   "source": [
+    "students_above_15 = df[df['G3'] > 15].shape[0]\n",
+    "print(f'Number of students scoring above 15: {students_above_15}')"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "a59fbbc8",
+   "metadata": {},
+   "source": [
+    "### Question 3: Is there a correlation between study time and the final grade (G3)?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "b8796b0e",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "correlation = df['studytime'].corr(df['G3'])\n",
+    "print(f'Correlation between study time and final grade: {correlation}')"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "bad11e31",
+   "metadata": {},
+   "source": [
+    "### Question 4: Which gender has a higher average final grade (G3)?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "67272496",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "average_by_gender = df.groupby('sex')['G3'].mean()\n",
+    "print('Average final grade by gender:')\n",
+    "print(average_by_gender)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "9f52c3a2",
+   "metadata": {},
+   "source": [
+    "## Step 6: Data Visualization\n",
+    "We visualize the data to better understand distributions and relationships."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "5368ad8b",
+   "metadata": {},
+   "source": [
+    "### Histogram of Final Grades (G3)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "499719d2",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "plt.figure(figsize=(8, 5))\n",
+    "plt.hist(df['G3'], bins=15, edgecolor='black', color='skyblue')\n",
+    "plt.title('Distribution of Final Grades (G3)')\n",
+    "plt.xlabel('Final Grade (G3)')\n",
+    "plt.ylabel('Number of Students')\n",
+    "plt.show()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "e6c98ba8",
+   "metadata": {},
+   "source": [
+    "### Scatter Plot: Study Time vs Final Grade (G3)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "3c50a68c",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "plt.figure(figsize=(8, 5))\n",
+    "plt.scatter(df['studytime'], df['G3'], alpha=0.7, color='green')\n",
+    "plt.title('Study Time vs Final Grade (G3)')\n",
+    "plt.xlabel('Study Time (Weekly)')\n",
+    "plt.ylabel('Final Grade (G3)')\n",
+    "plt.show()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "997bd4e1",
+   "metadata": {},
+   "source": [
+    "### Bar Chart: Average Final Grade by Gender"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "fda121f3",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "plt.figure(figsize=(8, 5))\n",
+    "sns.barplot(x='sex', y='G3', data=df, ci=None, palette='pastel')\n",
+    "plt.title('Average Final Grade by Gender')\n",
+    "plt.xlabel('Gender')\n",
+    "plt.ylabel('Average Final Grade (G3)')\n",
+    "plt.show()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "1c60b0e6",
+   "metadata": {},
+   "source": [
+    "## Step 7: Summary\n",
+    "- The average final grade provides an overall performance indicator.\n",
+    "- The number of high-achieving students is highlighted.\n",
+    "- Correlation shows the relationship between study habits and performance.\n",
+    "- Gender-based analysis reveals any performance disparities.\n",
+    "\n",
+    "Visualizations support the analysis by making patterns and trends more visible."
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.2"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
