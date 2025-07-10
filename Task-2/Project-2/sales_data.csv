@@ -1,0 +1,506 @@
+Product,Region,Category,Sales,Profit,Discount,Date
+Widget A,East,Electronics,4.12,-23.72,0.26,2023-04-13
+Gadget D,South,Electronics,20.13,-85.38,0.01,2023-12-15
+Widget A,South,Furniture,193.32,88.83,0.23,2023-09-28
+Gadget D,North,Furniture,184.53,125.94,0.38,2023-04-17
+Widget A,West,Furniture,82.41,-73.72,0.23,2023-03-13
+Widget A,East,Electronics,163.44,210.21,0.16,2023-07-08
+Widget B,West,Office Supplies,217.63,81.32,0.26,2023-01-21
+Gadget D,West,Office Supplies,204.71,109.76,0.18,2023-04-13
+Widget A,West,Furniture,165.87,76.31,,2023-05-02
+Gadget D,South,Furniture,101.91,60.31,0.38,2023-08-03
+Widget B,North,Office Supplies,190.51,123.86,0.15,2023-11-27
+Widget B,North,Office Supplies,62.69,-37.9,0.38,2023-03-29
+Gadget D,South,Furniture,1.14,-27.23,0.36,2023-04-10
+Widget B,South,Furniture,244.3,244.71,0.08,2023-12-26
+Gadget C,North,Office Supplies,259.23,278.45,0.03,2023-06-01
+Gadget C,West,Electronics,182.71,49.32,0.04,2023-05-11
+Widget B,East,Furniture,-6.74,8.3,0.01,2023-05-30
+Gadget C,East,Office Supplies,206.32,157.6,0.04,2023-11-05
+Widget A,East,Office Supplies,80.32,63.49,0.27,2023-09-15
+Gadget D,West,Office Supplies,62.05,-89.85,0.03,2023-12-10
+Widget A,North,Office Supplies,96.19,-37.54,0.13,2023-10-21
+Gadget D,South,Electronics,207.49,186.39,0.34,2023-07-11
+Widget B,North,Office Supplies,238.51,163.57,0.01,2023-10-04
+Widget A,West,Furniture,-15.78,-89.16,0.33,2023-06-10
+Widget B,South,Electronics,148.66,-11.21,0.11,2023-11-10
+Widget B,West,Office Supplies,60.05,-7.57,0.05,2023-01-22
+Gadget D,East,Electronics,123.46,168.76,0.28,2023-09-10
+Gadget D,East,Furniture,31.11,-92.12,0.25,2023-08-24
+Gadget D,West,Office Supplies,-39.77,-58.36,0.35,2023-12-11
+Widget A,South,Furniture,244.69,219.97,0.29,2023-02-18
+Gadget C,South,Office Supplies,69.89,-28.58,0.32,2023-02-28
+Gadget D,North,Office Supplies,258.34,161.1,0.11,2023-06-19
+Gadget D,East,Office Supplies,129.61,-4.73,0.07,2023-07-07
+Widget A,North,Office Supplies,-5.73,-60.22,0.3,2023-09-28
+Gadget D,North,Office Supplies,56.44,-2.73,0.32,2023-07-09
+Widget A,West,Electronics,239.38,188.91,0.4,2023-06-24
+Widget B,West,Office Supplies,,242.28,0.17,2023-02-20
+Gadget D,North,Office Supplies,300.38,232.09,0.15,2023-12-30
+Gadget D,East,Electronics,196.05,58.87,0.31,2023-02-24
+Widget B,West,Electronics,195.86,167.23,0.14,2023-09-01
+Widget B,North,Electronics,107.33,-18.01,0.37,2023-11-16
+Widget B,North,Electronics,175.29,17.26,0.34,2023-05-11
+Gadget D,North,Electronics,239.95,258.53,0.17,2023-11-03
+Gadget C,North,Electronics,62.11,-94.8,0.3,2023-05-15
+Gadget C,North,Office Supplies,44.18,-65.8,0.3,2023-01-21
+Gadget C,North,Office Supplies,62.34,-16.85,0.04,2023-11-25
+Gadget D,West,Furniture,48.79,-89.39,0.36,2023-06-16
+Widget B,East,Office Supplies,49.16,-27.43,0.2,2023-10-01
+Gadget D,North,Office Supplies,173.39,133.22,0.33,2023-03-30
+Widget B,South,Electronics,89.39,68.57,0.13,2023-11-12
+Gadget D,West,Electronics,244.74,257.07,0.36,2023-01-14
+Gadget D,West,Office Supplies,258.61,226.98,0.16,2023-08-30
+Widget B,North,Furniture,92.6,36.73,0.0,2023-09-22
+Gadget C,West,Electronics,102.73,3.77,0.36,2023-12-12
+Widget B,North,Office Supplies,138.1,51.88,0.04,2023-02-22
+Widget A,East,Office Supplies,204.3,136.12,0.13,2023-12-06
+Widget A,East,Furniture,97.66,7.23,0.38,2023-04-02
+Widget B,West,Furniture,244.09,149.66,0.38,2023-09-21
+Gadget D,West,Electronics,33.21,63.76,0.23,2023-02-04
+Widget A,South,Furniture,319.38,120.82,0.25,2023-07-25
+Widget A,West,Office Supplies,101.11,74.45,0.18,2023-03-22
+Gadget D,South,Office Supplies,130.84,17.79,0.12,2023-02-19
+Gadget D,East,Furniture,220.7,279.38,0.13,2023-12-26
+Gadget C,East,Furniture,255.48,205.44,0.27,2023-01-02
+Gadget D,North,Furniture,87.46,-43.95,0.3,2023-02-23
+Widget B,East,Furniture,215.9,247.39,0.32,2023-04-16
+Widget B,South,Electronics,210.64,94.97,0.32,2023-09-17
+Gadget C,West,Furniture,246.49,257.82,0.04,2023-11-06
+Widget A,North,Electronics,259.32,219.94,0.2,2023-07-10
+Widget A,South,Office Supplies,96.2,70.09,0.02,2023-08-06
+Gadget D,West,Furniture,43.85,-91.01,,2023-02-13
+Widget B,North,Electronics,204.65,7.47,0.18,2023-06-11
+Widget A,East,Furniture,218.14,116.65,0.36,2023-07-21
+Gadget C,South,Office Supplies,207.42,153.39,0.14,2023-09-27
+Gadget C,West,Office Supplies,79.45,3.16,0.05,2023-12-17
+Widget B,North,Office Supplies,76.82,-44.26,0.06,2023-10-31
+Gadget C,North,Furniture,250.26,233.97,0.3,2023-09-28
+Gadget C,East,Furniture,298.72,,0.25,2023-08-03
+Widget B,West,Electronics,112.33,110.28,0.04,2023-09-09
+Gadget D,East,Office Supplies,114.62,-31.33,0.03,2023-07-09
+Gadget D,East,Furniture,50.87,8.92,0.28,2023-10-23
+Gadget C,West,Office Supplies,125.97,-92.64,0.03,2023-08-01
+Gadget D,West,Office Supplies,220.85,265.72,0.33,2023-07-27
+Gadget D,West,Electronics,83.09,-52.9,0.28,2023-08-25
+Gadget C,South,Electronics,228.62,130.61,0.03,2023-12-04
+Gadget D,West,Electronics,93.15,9.62,0.03,2023-02-22
+Gadget C,North,Electronics,190.03,121.67,0.39,2023-10-07
+Widget A,East,Office Supplies,268.1,160.57,0.15,2023-08-05
+Widget B,South,Electronics,267.36,231.9,0.15,2023-09-09
+Widget B,West,Electronics,107.32,-17.43,0.33,2023-07-07
+Gadget D,South,Electronics,-41.6,-95.6,0.38,2023-02-10
+Gadget D,West,Electronics,26.16,-45.25,0.39,2023-06-06
+Gadget D,South,Office Supplies,308.35,260.01,0.3,2023-01-15
+Widget B,East,Electronics,278.23,249.56,0.15,2023-10-28
+Widget A,East,Office Supplies,219.46,138.97,0.03,2023-03-06
+Widget A,North,Furniture,215.9,140.21,0.31,2023-12-11
+Widget B,North,Office Supplies,264.09,166.01,0.22,2023-11-23
+Widget A,West,Office Supplies,69.02,-29.85,0.17,2023-01-09
+Widget B,East,Electronics,265.48,265.76,0.36,2023-12-10
+Widget A,South,Furniture,89.07,67.51,0.04,2023-05-09
+Gadget C,South,Furniture,68.05,53.26,0.2,2023-05-16
+Gadget C,South,Furniture,82.35,107.57,0.0,2023-03-04
+Widget B,North,Furniture,7.02,-81.21,0.19,2023-05-19
+Widget A,South,Office Supplies,157.53,-33.49,0.02,2023-03-22
+Gadget D,North,Furniture,139.49,195.21,0.05,2023-06-12
+Widget A,North,Office Supplies,44.7,-66.88,0.05,2023-10-16
+Gadget C,West,Office Supplies,120.1,141.26,0.26,2023-09-18
+Gadget C,South,Office Supplies,68.84,-1.86,0.3,2023-08-19
+Widget A,South,Furniture,141.92,55.72,0.23,2023-02-10
+Widget A,East,Electronics,74.28,15.48,0.38,2023-01-28
+Gadget D,West,Electronics,179.85,42.27,0.15,2023-05-15
+Gadget D,East,Furniture,289.27,187.62,0.11,2023-07-20
+Widget A,West,Electronics,-1.14,18.85,0.35,2023-11-24
+Widget A,South,Electronics,141.79,126.56,0.09,2023-09-25
+Widget A,North,Office Supplies,157.21,90.42,0.39,2023-02-02
+Widget A,North,Office Supplies,255.59,165.47,0.0,2023-02-17
+Widget B,North,Furniture,242.13,274.73,0.39,2023-03-03
+Widget A,North,Furniture,214.82,193.03,0.02,2023-08-04
+Gadget D,North,Electronics,33.75,-14.02,0.36,2023-10-20
+Gadget C,East,Office Supplies,-29.16,-87.53,0.21,2023-04-09
+Widget B,West,Furniture,175.22,4.91,0.4,2023-06-21
+Widget A,South,Furniture,91.61,138.03,0.03,2023-12-26
+Gadget C,East,Furniture,168.77,-79.43,0.22,2023-08-02
+Widget B,West,Furniture,195.39,98.55,0.39,2023-02-04
+Gadget C,North,Furniture,217.24,138.74,0.21,2023-08-15
+Widget A,West,Furniture,148.99,33.7,0.25,2023-04-11
+Widget A,West,Electronics,212.38,208.36,0.28,2023-05-11
+Gadget D,North,Office Supplies,85.19,-57.36,0.18,2023-09-14
+Widget A,North,Office Supplies,48.59,-69.94,0.25,2023-01-05
+Widget A,North,Furniture,242.42,191.28,0.23,2023-08-06
+Widget B,South,Office Supplies,157.24,98.2,0.36,2023-09-12
+Gadget D,North,Office Supplies,157.7,175.36,0.02,2023-12-25
+Widget B,South,Office Supplies,100.83,73.93,0.11,2023-10-10
+Gadget C,North,Furniture,49.92,-1.44,0.38,2023-07-26
+Widget A,South,Furniture,285.13,227.64,0.36,2023-01-15
+Gadget C,West,Office Supplies,200.99,219.77,0.18,2023-12-12
+Widget B,East,Office Supplies,111.12,177.88,0.25,2023-02-11
+Widget A,West,Furniture,125.16,8.86,0.11,2023-06-28
+Widget A,West,Electronics,257.38,136.09,0.08,2023-03-04
+Widget B,North,Office Supplies,165.29,44.39,0.19,2023-12-18
+Widget B,South,Electronics,31.81,-63.37,0.14,2023-08-19
+Widget B,East,Office Supplies,180.82,266.93,0.23,2023-08-29
+Widget B,North,Electronics,66.12,-45.27,0.03,2023-02-21
+Widget B,North,Electronics,260.09,280.09,0.39,2023-04-06
+Widget A,North,Electronics,98.58,78.4,0.39,2023-08-10
+Widget B,West,Furniture,,-25.95,0.28,2023-08-19
+Widget A,South,Electronics,262.39,116.76,0.21,2023-08-25
+Widget A,South,Electronics,260.62,249.18,0.12,2023-05-23
+Widget B,East,Electronics,223.76,192.89,0.33,2023-06-20
+Widget B,South,Office Supplies,186.71,222.62,0.27,2023-01-29
+Gadget D,South,Electronics,267.98,163.51,0.07,2023-02-05
+Widget A,North,Office Supplies,,176.91,0.36,2023-01-13
+Widget B,North,Electronics,214.86,239.68,0.33,2023-06-09
+Widget B,West,Electronics,103.11,-0.13,0.38,2023-11-23
+Widget B,North,Furniture,181.06,95.77,0.29,2023-07-06
+Gadget D,North,Office Supplies,100.05,-11.52,0.25,2023-08-31
+Gadget D,North,Electronics,337.35,295.07,0.17,2023-03-27
+Gadget C,North,Office Supplies,285.77,277.62,0.37,2023-10-11
+Widget A,West,Office Supplies,35.26,-84.23,0.35,2023-03-07
+Gadget C,North,Furniture,229.4,182.23,0.02,2023-06-19
+Widget B,East,Furniture,287.04,270.1,0.01,2023-02-14
+Gadget D,East,Furniture,18.52,-27.77,0.15,2023-03-03
+Gadget D,East,Furniture,233.78,127.18,0.32,2023-05-14
+Gadget C,East,Furniture,244.67,266.2,0.39,2023-10-11
+Gadget D,North,Furniture,34.38,-86.42,0.06,2023-01-28
+Widget B,East,Furniture,,178.97,0.24,2023-04-18
+Gadget D,North,Furniture,148.72,18.94,0.15,2023-02-13
+Gadget C,West,Electronics,226.81,269.76,,2023-12-06
+Widget B,East,Office Supplies,313.2,288.42,0.34,2023-10-13
+Gadget C,South,Furniture,238.6,277.71,0.34,2023-11-27
+Gadget D,East,Furniture,244.79,89.69,0.19,2023-05-08
+Gadget C,East,Office Supplies,205.48,244.82,0.17,2023-12-14
+Gadget C,North,Electronics,254.67,237.82,0.11,2023-08-19
+Widget A,East,Office Supplies,77.48,27.64,0.02,2023-07-09
+Gadget D,South,Office Supplies,350.08,231.57,0.35,2023-08-13
+Gadget D,North,Furniture,,-85.2,0.33,2023-10-10
+Gadget C,North,Office Supplies,209.32,138.51,0.4,2023-05-01
+Widget A,West,Office Supplies,58.45,-8.0,0.4,2023-04-26
+Gadget D,West,Furniture,51.23,-51.77,0.22,2023-08-21
+Widget B,East,Furniture,81.14,-69.22,0.31,2023-09-16
+Gadget C,West,Furniture,268.34,178.52,0.38,2023-12-25
+Gadget D,West,Furniture,202.74,35.95,0.34,2023-07-17
+Widget B,West,Office Supplies,137.1,189.91,0.1,2023-05-17
+Gadget D,North,Office Supplies,69.07,-73.86,0.18,2023-11-14
+Widget B,North,Electronics,188.65,26.12,0.05,2023-06-14
+Gadget C,North,Electronics,,115.8,0.38,2023-08-13
+Gadget D,West,Office Supplies,245.49,216.29,0.24,2023-11-03
+Gadget D,North,Electronics,116.4,27.5,0.09,2023-08-22
+Widget A,West,Office Supplies,210.94,150.36,0.27,2023-06-21
+Gadget C,North,Electronics,214.02,254.39,0.25,2023-06-01
+Widget B,North,Furniture,116.03,146.35,0.14,2023-11-11
+Gadget D,South,Electronics,0.25,-6.82,0.05,2023-06-09
+Gadget D,East,Furniture,94.68,-90.24,,2023-04-06
+Widget B,West,Furniture,304.03,248.04,0.21,2023-08-21
+Gadget C,South,Furniture,60.24,-91.49,0.31,2023-06-29
+Widget A,North,Furniture,223.22,249.88,0.21,2023-04-23
+Widget A,West,Electronics,85.79,,0.34,2023-11-14
+Gadget D,North,Office Supplies,293.55,275.63,0.22,2023-02-21
+Widget B,East,Furniture,176.67,219.51,0.22,2023-09-25
+Gadget D,South,Electronics,243.94,,0.35,2023-10-22
+Widget B,East,Furniture,94.84,40.28,0.16,2023-04-23
+Widget A,South,Electronics,214.25,206.88,0.05,2023-04-11
+Gadget C,North,Electronics,98.51,60.77,0.01,2023-04-23
+Widget B,East,Electronics,156.84,91.95,0.3,2023-03-22
+Widget A,East,Office Supplies,159.51,151.0,0.25,2023-07-06
+Gadget D,North,Electronics,284.75,249.47,0.28,2023-04-23
+Widget B,East,Electronics,327.73,293.63,0.09,2023-01-02
+Gadget C,West,Office Supplies,229.81,207.31,0.05,2023-05-10
+Gadget D,South,Office Supplies,163.4,67.11,0.01,2023-08-08
+Gadget D,South,Electronics,247.02,68.54,0.14,2023-02-23
+Widget A,South,Office Supplies,158.39,195.03,0.24,2023-12-09
+Widget B,West,Furniture,35.63,-4.49,0.16,2023-08-12
+Gadget D,South,Furniture,101.26,-55.81,0.17,2023-08-13
+Gadget C,North,Office Supplies,222.44,41.85,0.36,2023-05-06
+Widget B,East,Office Supplies,95.92,14.9,0.14,2023-05-10
+Gadget C,West,Electronics,197.45,18.52,0.21,2023-02-22
+Gadget D,South,Office Supplies,100.89,-6.56,0.31,2023-06-21
+Gadget C,North,Electronics,16.06,-83.16,0.16,2023-08-06
+Widget A,East,Furniture,-5.24,-92.85,0.25,2023-06-09
+Gadget C,East,Office Supplies,,295.09,0.34,2023-07-17
+Widget B,West,Electronics,96.92,71.11,0.38,2023-09-04
+Gadget C,West,Electronics,136.3,53.73,0.06,2023-11-20
+Gadget C,West,Furniture,282.29,171.86,0.37,2023-07-22
+Widget A,North,Office Supplies,77.04,-12.7,0.2,2023-07-03
+Gadget C,North,Furniture,333.69,279.98,,2023-05-03
+Gadget C,West,Electronics,168.0,214.54,0.18,2023-09-12
+Gadget D,South,Electronics,34.76,-64.24,0.39,2023-10-21
+Gadget D,East,Office Supplies,69.86,67.03,0.2,2023-10-07
+Widget B,East,Electronics,254.64,251.65,0.13,2023-11-21
+Gadget D,North,Office Supplies,305.74,277.89,0.25,2023-04-08
+Gadget D,East,Furniture,155.94,86.96,0.1,2023-07-17
+Gadget D,South,Office Supplies,248.57,145.36,0.03,2023-08-28
+Gadget D,East,Office Supplies,42.63,-33.19,0.05,2023-05-24
+Widget A,North,Electronics,289.15,296.47,0.05,2023-04-07
+Gadget D,North,Electronics,69.23,-7.33,0.06,2023-07-20
+Widget A,South,Office Supplies,284.34,277.09,0.06,2023-05-04
+Widget A,South,Electronics,221.1,159.86,0.26,2023-07-06
+Gadget D,East,Electronics,214.97,143.09,0.07,2023-11-22
+Gadget C,East,Electronics,109.52,105.08,0.14,2023-12-15
+Widget A,North,Office Supplies,50.87,-7.73,0.36,2023-09-16
+Gadget C,South,Electronics,47.15,-29.39,0.19,2023-05-28
+Gadget C,South,Office Supplies,80.97,-11.81,0.27,2023-09-09
+Gadget D,South,Electronics,89.11,-25.42,0.07,2023-12-12
+Widget B,East,Furniture,262.5,211.83,0.08,2023-05-27
+Gadget D,South,Electronics,81.63,40.05,0.02,2023-05-28
+Widget B,North,Electronics,-26.17,-76.86,0.07,2023-12-18
+Widget B,North,Office Supplies,380.37,287.64,0.11,2023-07-18
+Gadget D,East,Office Supplies,195.53,253.51,0.07,2023-11-04
+Gadget D,West,Electronics,304.48,271.1,0.04,2023-05-08
+Widget B,East,Furniture,280.34,297.96,0.05,2023-02-08
+Gadget D,West,Electronics,94.3,-30.44,0.18,2023-12-04
+Widget B,South,Electronics,135.02,58.5,0.08,2023-12-26
+Gadget C,East,Furniture,202.74,203.3,0.15,2023-05-09
+Gadget D,North,Office Supplies,230.24,,0.2,2023-09-24
+Gadget C,South,Electronics,55.01,-38.44,0.28,2023-05-31
+Widget A,North,Office Supplies,294.11,226.33,0.02,2023-10-25
+Gadget C,South,Office Supplies,122.29,-10.22,0.32,2023-04-09
+Gadget C,East,Furniture,123.7,-10.47,0.25,2023-09-20
+Widget B,West,Furniture,143.52,114.79,0.03,2023-09-09
+Gadget C,South,Office Supplies,170.49,137.18,0.35,2023-05-24
+Gadget D,West,Electronics,119.82,132.03,0.37,2023-12-12
+Widget B,South,Office Supplies,44.3,-63.41,0.02,2023-04-22
+Widget A,North,Electronics,198.76,250.98,0.11,2023-03-01
+Gadget D,North,Electronics,169.4,6.24,0.32,2023-01-02
+Widget A,South,Furniture,73.61,-48.19,0.3,2023-10-31
+Gadget C,West,Electronics,261.82,255.5,0.07,2023-09-11
+Gadget D,East,Electronics,258.1,282.26,0.08,2023-05-20
+Gadget D,East,Office Supplies,256.79,244.85,0.15,2023-02-06
+Widget A,North,Furniture,357.53,223.81,0.19,2023-06-09
+Gadget D,East,Electronics,182.25,162.1,0.25,2023-01-09
+Gadget D,North,Electronics,139.68,120.34,0.15,2023-08-21
+Gadget D,East,Furniture,87.36,-65.21,0.19,2023-04-09
+Gadget C,South,Office Supplies,11.74,63.38,0.3,2023-05-27
+Widget A,North,Furniture,132.65,49.08,0.01,2023-10-31
+Gadget D,North,Furniture,83.75,3.9,0.1,2023-07-27
+Widget B,South,Electronics,164.01,189.37,0.29,2023-05-11
+Widget B,North,Electronics,184.4,98.35,0.36,2023-06-01
+Widget B,East,Office Supplies,62.15,-67.58,0.2,2023-02-23
+Widget B,East,Electronics,2.72,-11.93,0.21,2023-04-30
+Gadget C,North,Electronics,171.65,173.3,0.04,2023-06-10
+Gadget D,East,Furniture,-86.14,-69.55,0.18,2023-04-26
+Widget A,West,Electronics,258.95,240.48,0.21,2023-03-16
+Gadget D,North,Office Supplies,173.0,98.06,0.1,2023-04-23
+Gadget C,South,Furniture,115.67,92.23,0.11,2023-04-14
+Widget B,West,Office Supplies,209.18,136.96,0.15,2023-12-06
+Gadget C,North,Furniture,173.8,229.87,0.01,2023-09-11
+Gadget D,South,Electronics,75.15,39.12,0.13,2023-08-15
+Widget A,East,Furniture,223.59,171.21,0.08,2023-04-22
+Gadget C,South,Furniture,141.34,126.29,0.13,2023-04-09
+Widget A,West,Electronics,100.95,6.81,0.05,2023-06-02
+Gadget C,East,Electronics,222.69,251.45,0.36,2023-12-15
+Widget A,North,Office Supplies,210.84,218.97,0.24,2023-12-04
+Widget A,East,Office Supplies,179.67,163.38,0.27,2023-07-13
+Widget B,North,Electronics,208.8,240.23,0.32,2023-11-06
+Widget A,North,Electronics,263.27,246.92,0.2,2023-06-12
+Widget B,South,Electronics,178.61,183.35,0.03,2023-07-27
+Gadget D,South,Furniture,241.67,234.81,0.21,2023-06-18
+Gadget D,South,Furniture,170.96,178.99,0.23,2023-06-10
+Widget B,West,Furniture,126.52,172.06,0.3,2023-03-09
+Widget B,West,Electronics,234.09,147.44,0.17,2023-10-16
+Gadget C,South,Office Supplies,245.63,201.09,0.05,2023-10-04
+Gadget C,West,Electronics,192.5,-36.56,0.11,2023-10-31
+Gadget C,East,Furniture,199.21,252.35,0.15,2023-05-15
+Gadget D,East,Furniture,238.8,248.74,0.26,2023-07-14
+Gadget C,West,Electronics,40.59,-88.3,0.23,2023-05-08
+Widget A,West,Electronics,287.67,230.33,0.14,2023-02-02
+Widget A,East,Furniture,45.57,-48.45,0.39,2023-06-25
+Gadget C,North,Furniture,61.88,34.05,0.24,2023-01-22
+Widget A,East,Furniture,278.83,197.4,0.09,2023-08-26
+Gadget D,East,Electronics,62.75,-35.7,0.04,2023-06-07
+Widget A,West,Furniture,280.25,227.19,,2023-02-07
+Gadget D,East,Furniture,277.82,232.85,0.1,2023-08-18
+Widget B,West,Office Supplies,160.3,102.99,0.06,2023-12-31
+Widget B,West,Electronics,32.81,-97.45,0.07,2023-02-20
+Widget B,South,Office Supplies,89.31,14.82,0.11,2023-09-21
+Widget B,East,Office Supplies,187.3,146.77,0.07,2023-10-10
+Widget A,North,Furniture,318.64,292.47,0.36,2023-01-27
+Gadget C,South,Electronics,151.82,152.73,0.03,2023-08-14
+Widget A,West,Furniture,107.79,3.92,0.21,2023-10-04
+Gadget D,West,Electronics,136.23,153.6,0.16,2023-10-13
+Widget A,North,Office Supplies,119.89,115.99,0.39,2023-04-07
+Widget A,West,Electronics,225.62,211.94,0.04,2023-10-11
+Gadget D,East,Furniture,-32.33,-57.21,0.16,2023-11-13
+Widget B,South,Furniture,325.67,204.41,0.39,2023-10-31
+Widget B,West,Furniture,110.25,116.51,0.35,2023-05-27
+Widget B,West,Electronics,269.12,285.2,0.33,2023-01-04
+Gadget C,North,Office Supplies,180.46,36.75,0.1,2023-02-04
+Gadget D,East,Office Supplies,148.68,153.05,0.07,2023-07-11
+Gadget D,West,Electronics,148.55,272.81,0.27,2023-02-18
+Widget A,North,Furniture,42.35,-59.0,0.37,2023-01-17
+Gadget C,West,Office Supplies,221.19,274.89,0.22,2023-06-21
+Widget B,North,Furniture,91.27,175.15,0.23,2023-08-08
+Gadget C,North,Electronics,70.52,-72.87,0.11,2023-06-07
+Gadget D,East,Furniture,122.59,20.39,0.31,2023-02-15
+Gadget D,West,Office Supplies,267.08,183.27,0.07,2023-01-06
+Widget A,East,Office Supplies,0.12,-73.06,0.13,2023-04-09
+Widget A,North,Furniture,99.77,132.87,0.17,2023-08-21
+Gadget D,South,Electronics,102.67,38.35,0.2,2023-02-06
+Widget B,West,Furniture,184.6,148.37,0.1,2023-10-07
+Widget B,South,Electronics,97.05,-81.7,0.05,2023-12-15
+Gadget C,West,Furniture,319.69,248.61,0.24,2023-10-29
+Gadget D,East,Office Supplies,334.36,289.4,0.12,2023-06-30
+Gadget D,East,Electronics,286.36,287.55,0.23,2023-04-05
+Widget B,East,Electronics,259.89,199.86,0.06,2023-04-09
+Widget B,East,Electronics,39.19,-47.97,0.19,2023-07-07
+Gadget D,East,Office Supplies,230.41,203.31,0.21,2023-04-26
+Widget A,South,Furniture,-13.67,-90.17,0.02,2023-07-10
+Gadget D,East,Office Supplies,48.44,-91.15,0.13,2023-09-10
+Gadget D,North,Electronics,122.1,29.44,0.05,2023-06-10
+Widget B,North,Furniture,243.38,95.46,0.03,2023-09-13
+Widget B,South,Office Supplies,213.45,208.16,0.4,2023-11-19
+Widget A,West,Electronics,208.49,173.32,0.13,2023-05-08
+Widget A,North,Electronics,158.86,,0.32,2023-01-18
+Gadget C,West,Office Supplies,82.93,9.45,0.1,2023-10-08
+Gadget D,South,Office Supplies,239.19,298.85,0.27,2023-08-11
+Widget B,West,Office Supplies,207.22,70.47,0.3,2023-02-23
+Widget A,West,Electronics,99.28,,0.24,2023-02-27
+Gadget C,West,Office Supplies,12.87,-34.55,0.19,2023-11-19
+Gadget C,West,Electronics,264.77,217.92,0.16,2023-12-26
+Widget B,South,Office Supplies,264.37,177.47,0.14,2023-06-23
+Widget B,North,Electronics,70.42,-11.69,0.37,2023-10-07
+Gadget C,East,Electronics,37.97,-67.05,0.33,2023-04-24
+Widget A,West,Furniture,217.45,172.2,0.39,2023-10-15
+Gadget C,North,Office Supplies,161.69,161.8,,2023-12-08
+Gadget D,North,Office Supplies,66.49,9.3,0.29,2023-05-31
+Gadget D,South,Electronics,312.19,280.35,0.38,2023-05-07
+Widget B,North,Electronics,106.61,-39.58,0.07,2023-06-04
+Widget A,South,Electronics,209.32,72.93,0.03,2023-09-30
+Widget A,West,Furniture,203.84,277.45,0.3,2023-04-14
+Gadget D,West,Furniture,115.61,67.89,0.23,2023-10-26
+Gadget C,East,Electronics,207.3,155.41,0.34,2023-09-03
+Widget B,East,Office Supplies,,59.04,0.06,2023-06-25
+Gadget C,East,Office Supplies,137.9,9.69,0.32,2023-02-08
+Gadget C,North,Furniture,337.39,293.59,0.08,2023-06-19
+Gadget C,West,Furniture,109.07,63.73,0.07,2023-09-04
+Widget A,South,Electronics,256.51,257.64,0.07,2023-01-26
+Gadget D,East,Office Supplies,167.97,,0.33,2023-12-21
+Widget A,South,Electronics,181.11,-14.76,0.27,2023-11-02
+Gadget D,South,Furniture,84.76,-87.55,0.21,2023-01-13
+Widget B,East,Office Supplies,226.07,160.67,0.14,2023-11-12
+Widget B,West,Office Supplies,85.76,47.41,0.35,2023-11-09
+Gadget C,East,Furniture,265.4,245.74,0.16,2023-02-05
+Gadget D,South,Electronics,181.41,89.28,0.33,2023-06-22
+Gadget D,East,Electronics,261.85,287.28,0.18,2023-01-20
+Gadget D,South,Office Supplies,54.79,-25.79,0.15,2023-11-17
+Gadget C,South,Furniture,184.41,247.45,0.19,2023-09-21
+Gadget C,East,Office Supplies,139.5,210.64,0.12,2023-05-22
+Widget B,North,Furniture,,208.37,0.3,2023-05-23
+Widget A,East,Electronics,271.72,237.91,0.2,2023-04-02
+Gadget D,North,Furniture,230.03,204.41,0.09,2023-12-20
+Gadget D,South,Electronics,166.1,150.49,0.36,2023-11-18
+Widget A,South,Furniture,54.93,-47.5,0.15,2023-10-15
+Gadget D,North,Office Supplies,58.33,-86.99,0.22,2023-08-03
+Gadget C,South,Electronics,252.78,268.34,0.36,2023-12-08
+Gadget C,North,Office Supplies,120.97,146.66,0.25,2023-02-20
+Gadget D,North,Office Supplies,276.82,218.61,0.05,2023-06-02
+Gadget C,South,Electronics,170.77,92.61,0.38,2023-07-05
+Gadget C,West,Electronics,81.45,-53.08,0.25,2023-03-04
+Gadget D,North,Office Supplies,111.92,-49.93,0.13,2023-07-09
+Widget B,East,Office Supplies,163.86,174.23,0.06,2023-05-05
+Widget A,East,Office Supplies,203.96,72.12,0.32,2023-05-30
+Gadget C,South,Office Supplies,81.12,-19.79,0.25,2023-11-10
+Widget B,West,Electronics,202.41,96.64,0.21,2023-02-27
+Gadget C,South,Electronics,92.13,-74.32,0.36,2023-12-08
+Gadget C,West,Office Supplies,127.73,132.79,0.32,2023-11-01
+Widget A,North,Furniture,129.71,7.6,,2023-06-29
+Gadget C,North,Furniture,247.73,219.02,0.12,2023-06-19
+Widget A,North,Electronics,116.0,24.14,0.1,2023-11-22
+Widget A,North,Office Supplies,144.54,82.09,0.3,2023-09-28
+Widget A,East,Office Supplies,38.5,-95.35,0.01,2023-02-23
+Widget B,East,Electronics,98.02,,0.23,2023-04-11
+Gadget D,South,Furniture,163.1,57.0,0.3,2023-09-21
+Widget B,West,Furniture,156.71,91.98,0.35,2023-02-22
+Gadget D,North,Furniture,109.41,140.01,0.14,2023-03-01
+Gadget D,North,Electronics,134.72,16.67,0.33,2023-04-18
+Widget A,West,Furniture,242.97,177.99,0.04,2023-01-05
+Gadget C,West,Electronics,361.45,244.05,0.34,2023-04-13
+Widget A,South,Electronics,280.94,211.94,0.05,2023-07-15
+Gadget C,West,Office Supplies,-45.45,-84.15,0.16,2023-09-19
+Gadget D,North,Furniture,159.24,92.2,0.32,2023-12-31
+Widget A,North,Electronics,155.75,-58.03,0.06,2023-12-16
+Gadget C,North,Furniture,129.27,-3.18,0.09,2023-02-16
+Widget B,North,Furniture,293.23,294.67,0.29,2023-12-21
+Gadget C,North,Office Supplies,119.21,-43.0,0.29,2023-11-07
+Widget A,South,Furniture,128.62,99.56,,2023-11-04
+Widget B,North,Office Supplies,212.26,147.26,0.28,2023-05-24
+Gadget C,South,Electronics,196.07,180.99,0.22,2023-09-26
+Gadget C,North,Furniture,173.33,123.86,0.1,2023-05-04
+Gadget C,East,Electronics,83.77,-96.09,0.14,2023-04-16
+Gadget C,East,Furniture,72.01,30.58,0.07,2023-06-07
+Gadget C,East,Electronics,228.65,107.08,0.36,2023-05-27
+Widget B,East,Furniture,39.95,-64.85,0.23,2023-05-25
+Gadget D,South,Furniture,137.18,40.25,0.16,2023-04-30
+Widget B,South,Furniture,-22.06,-86.72,0.18,2023-11-15
+Widget B,West,Furniture,94.85,-68.57,0.38,2023-10-02
+Widget B,North,Furniture,207.59,58.77,0.06,2023-04-02
+Gadget D,East,Furniture,46.12,-46.91,0.23,2023-02-27
+Widget A,South,Furniture,120.7,127.02,0.2,2023-12-12
+Gadget D,North,Furniture,219.37,175.79,0.24,2023-08-17
+Widget B,North,Furniture,304.88,220.23,0.01,2023-04-27
+Gadget C,South,Electronics,15.54,-19.94,0.35,2023-11-14
+Gadget C,East,Office Supplies,24.88,-33.01,0.37,2023-10-06
+Widget B,West,Furniture,42.39,-58.17,0.23,2023-05-07
+Gadget C,North,Office Supplies,151.72,154.57,0.28,2023-05-09
+Widget B,West,Furniture,168.69,182.59,0.37,2023-02-27
+Gadget C,East,Furniture,-57.13,-87.37,0.28,2023-05-02
+Gadget D,East,Electronics,294.14,274.48,0.06,2023-01-01
+Widget A,West,Electronics,69.41,-79.21,0.23,2023-08-27
+Widget A,East,Office Supplies,84.97,116.52,0.24,2023-10-17
+Gadget D,North,Electronics,283.03,183.62,0.17,2023-04-06
+Gadget D,West,Electronics,333.09,248.39,0.29,2023-05-06
+Widget B,East,Office Supplies,173.83,185.63,0.37,2023-04-28
+Widget B,West,Electronics,290.74,220.69,0.37,2023-02-17
+Widget B,North,Furniture,92.82,,0.18,2023-03-30
+Gadget C,East,Office Supplies,244.61,225.93,0.05,2023-08-25
+Widget B,North,Office Supplies,17.44,-67.95,0.39,2023-09-29
+Gadget D,East,Furniture,365.47,257.93,0.34,2023-07-08
+Widget A,South,Electronics,156.62,119.04,0.05,2023-07-11
+Gadget C,East,Office Supplies,242.47,226.92,0.37,2023-03-10
+Widget B,West,Office Supplies,114.16,80.93,0.35,2023-10-05
+Gadget C,East,Furniture,287.52,157.43,0.21,2023-12-15
+Gadget C,North,Furniture,260.67,110.56,0.24,2023-09-04
+Widget B,North,Electronics,297.13,192.64,0.16,2023-03-17
+Gadget C,East,Office Supplies,107.41,-67.35,0.02,2023-06-03
+Widget A,West,Electronics,23.24,-75.86,0.13,2023-05-24
+Gadget D,South,Electronics,140.7,-1.16,0.32,2023-03-27
+Gadget D,West,Furniture,77.94,-36.18,0.0,2023-07-04
+Widget A,South,Office Supplies,314.85,248.71,0.13,2023-10-12
+Gadget C,North,Office Supplies,148.41,-12.31,0.16,2023-08-08
+Widget B,West,Office Supplies,241.75,290.35,0.21,2023-03-10
+Gadget C,South,Furniture,168.25,34.76,0.37,2023-02-16
+Widget A,East,Furniture,117.81,-27.15,0.14,2023-04-04
+Gadget C,North,Furniture,90.85,215.88,0.14,2023-08-26
+Gadget D,East,Furniture,238.13,163.48,0.3,2023-07-23
+Gadget C,North,Furniture,137.98,99.28,0.18,2023-08-06
+Widget A,West,Office Supplies,128.99,122.15,0.09,2023-12-07
+Gadget D,West,Electronics,170.44,187.68,,2023-02-08
+Gadget C,North,Office Supplies,88.07,-8.62,0.06,2023-04-10
+Gadget C,North,Electronics,303.12,298.53,0.07,2023-10-16
+Gadget D,North,Furniture,205.68,289.92,0.2,2023-09-11
+Widget B,West,Electronics,205.57,160.13,0.17,2023-08-10
+Gadget D,South,Office Supplies,,-20.18,0.37,2023-12-23
+Widget B,East,Office Supplies,296.34,172.09,0.14,2023-01-23
+Widget A,East,Electronics,3.49,-71.12,0.23,2023-09-07
+Widget A,West,Furniture,29.88,-87.74,0.25,2023-01-10
+Gadget D,East,Furniture,114.93,3.07,0.01,2023-09-03
+Gadget D,North,Office Supplies,208.4,85.05,0.27,2023-11-21
+Widget A,South,Electronics,233.17,247.31,0.07,2023-04-10
+Widget B,East,Furniture,274.45,190.87,0.38,2023-10-17
+Widget A,South,Furniture,121.38,197.08,0.06,2023-06-29
+Gadget D,North,Office Supplies,79.45,70.2,0.17,2023-08-11
+Widget A,East,Furniture,140.45,38.37,0.03,2023-09-07
+Gadget D,West,Electronics,58.51,48.42,0.4,2023-05-27
+Gadget D,South,Office Supplies,218.31,295.06,0.2,2023-04-06
+Widget A,North,Office Supplies,23.24,-83.96,0.24,2023-09-14
+Widget B,South,Electronics,286.66,246.81,0.03,2023-11-21
+Gadget C,East,Office Supplies,84.08,131.47,0.3,2023-01-04
+Widget A,East,Furniture,153.78,,0.08,2023-01-16
+Gadget C,West,Furniture,265.71,190.1,0.36,2023-10-07
+Widget A,North,Electronics,147.05,94.67,0.08,2023-12-02
+Widget A,West,Electronics,258.95,240.48,0.21,2023-03-16
+Gadget D,South,Electronics,181.41,89.28,0.33,2023-06-22
+Widget A,West,Electronics,287.67,230.33,0.14,2023-02-02
+Widget B,North,Electronics,214.86,239.68,0.33,2023-06-09
+Widget A,South,Office Supplies,158.39,195.03,0.24,2023-12-09
